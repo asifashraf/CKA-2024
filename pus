@@ -1,0 +1,17 @@
+if [ -z "$1" ]; then
+    echo "Git commit message is empty"
+else
+    git add .
+    git commit -m "$1"
+    git pull
+    git push
+fi
+
+if [ $? -ne 0 ]; then
+    echo "An error occurred during the git operations."
+else
+    echo "Git operations completed successfully."
+fi
+
+echo "Press any key to continue..."
+read -n 1 -s

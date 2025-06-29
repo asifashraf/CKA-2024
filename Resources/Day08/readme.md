@@ -1,3 +1,16 @@
+Explain rc
+# Day 08: Replicaset, Deployment, and Replication Controller
+```bash
+./k explain rc
+./k proxy 
+# kubectl proxy [--port=PORT] [--api-prefix=PREFIX] [--www=STATIC_DIR] [--www-prefix=WWW_PREFIX]
+#The kubectl proxy command is a utility in Kubernetes that creates a proxy server between your local machine and the Kubernetes API server. It allows you to securely access the Kubernetes API without directly exposing the API server or requiring complex authentication setups.
+
+./k get pods
+./k get nodes 
+./k get rs
+```
+
 ## Check out the task.md file for the hands-on exercises
 
 ## Cheatsheet for Kubernetes commands:
